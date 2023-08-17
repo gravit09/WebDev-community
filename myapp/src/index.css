@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+* {
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
+a {
+  font-family: "Roboto Mono", monospace;
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 250px;
+}
+
+li {
+  margin: 20px;
+  font-family: 20px;
+  font-weight: 400;
+}
+
+.navbar {
+  margin: 0px 22px;
+}
+.join-btn {
+  margin-left: auto;
+}
+
+.heading {
+  text-align: center;
+  padding: 150px;
+  font-size: 80px;
+}
+
+.tag-line {
+  text-align: center;
+  font-size: 20px;
+  margin: -30px 95px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+span {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.motto {
+  margin: 70px;
+}
+
+img {
+  width: 50%;
+  margin: 5%;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+}
+
+.together-img {
+  width: 60%;
+}
+
+.item-p {
+  padding: 50px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.right-img {
+  margin-left: 25%;
+}
+
+@media (max-width: 998px) {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .collab-img {
+    width: 70%;
+  }
+  .item-p {
+    padding: 2px;
+  }
+}
