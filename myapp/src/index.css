@@ -36,6 +36,22 @@ li {
   font-size: 80px;
 }
 
+@media (max-width: 998px) {
+  .heading {
+    padding: 10px;
+  }
+
+  .tag-line {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tag-line {
+    padding-top: 40px;
+  }
+}
+
 .tag-line {
   text-align: center;
   font-size: 20px;

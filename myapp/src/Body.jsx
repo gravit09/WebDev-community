@@ -4,6 +4,7 @@ import inovate from "./assets/innovate.png";
 import together from "./assets/together.webp";
 import coder from "./assets/coder.png";
 import Join from "./Join";
+import "./index.css";
 function Body() {
   return (
     <div>
