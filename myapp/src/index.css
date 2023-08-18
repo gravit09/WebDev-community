@@ -14,7 +14,21 @@ a {
 .brand {
   font-size: 30px;
   font-weight: 400;
-  margin-right: 250px;
+  margin-right: 290px;
+}
+
+@media (max-width: 998px) {
+  .brand {
+    margin-right: 10px;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .btn {
+    margin: auto;
+  }
 }
 
 li {
@@ -23,9 +37,6 @@ li {
   font-weight: 400;
 }
 
-.navbar {
-  margin: 0px 22px;
-}
 .join-btn {
   margin-left: auto;
 }
@@ -38,7 +49,7 @@ li {
 
 @media (max-width: 998px) {
   .heading {
-    padding: 10px;
+    padding: 80px;
   }
 
   .tag-line {
@@ -47,6 +58,9 @@ li {
 }
 
 @media (max-width: 600px) {
+  .heading {
+    padding: 10px;
+  }
   .tag-line {
     padding-top: 40px;
   }
@@ -92,6 +106,12 @@ img {
   padding: 50px;
   font-size: 17px;
   font-weight: 300;
+}
+@media (max-width: 998px) {
+  .item-p {
+    padding: 0px;
+    text-align: center;
+  }
 }
 
 .right-img {

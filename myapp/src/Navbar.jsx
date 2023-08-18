@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <div>
@@ -18,27 +19,32 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item ">
-                <Link to="/">
-                  <a className="nav-link active" aria-current="page">
-                    Home
-                  </a>
+                <Link to="/" className="nav-link active" aria-current="page">
+                  Home
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link to="paths">
-                  <a className="nav-link active" aria-current="page">
-                    Paths
-                  </a>
+                <Link
+                  to="paths"
+                  className="nav-link active"
+                  aria-current="page"
+                >
+                  Paths
                 </Link>
               </li>
               <li className="nav-item ">
-                <Link to="courses">
-                  <a className="nav-link active" aria-current="page">
-                    Courses
-                  </a>
+                <Link
+                  to="courses"
+                  className="nav-link active"
+                  aria-current="page"
+                >
+                  Courses
                 </Link>
               </li>
               <li className="nav-item ">

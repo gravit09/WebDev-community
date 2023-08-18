@@ -1,45 +1,27 @@
 import React from "react";
-import styles from "./about.module.css";
+import "./Courses.css";
 import discord from "./assets/discord.png";
-import insta from "./assets/insta.png";
 import telegran from "./assets/telegram.png";
 
 function Join() {
   return (
     <div>
-      <div className={styles.cards}>
-        <div className={styles.card}>
-          <div className={styles.discord}>
-            <img
-              className={styles.discordlogo}
-              src={discord}
-              alt="Discord Logo"
-            />
-          </div>
-          <div className={styles.jointext}>Join Our Discord Community</div>
+      <aside className="profile-card">
+        <header>
+          <a href="https://tutsplus.com">
+            <img src={discord} />
+          </a>
+          <h1>Code step by step</h1>
+        </header>
+        <div className="profile-bio">
+          <p>
+            Terence is an avid reader of science fiction, especially anything to
+            do with aliens and tweed jackets. Most weekends, he can be found
+            cataloguing his collection of rodent skeletons.
+          </p>
         </div>
-        <div className={styles.card}>
-          <div className={styles.insta}>
-            <img
-              className={styles.instalogo}
-              src={insta}
-              alt="Instagram Logo"
-            />
-          </div>
-          <div className={styles.jointext}>Follow our Instagram</div>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.insta}>
-            <img
-              className={styles.instalogo}
-              src={telegran}
-              alt="Telegram Logo"
-            />
-          </div>
-          <div className={styles.jointext}>Join our Telegram</div>
-        </div>
-      </div>
-      <p className={styles.footer}>
+      </aside>
+      <p className="footer">
         © Copyrights by We are devs . All rights reserved.
       </p>
     </div>
