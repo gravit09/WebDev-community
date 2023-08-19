@@ -83,10 +83,16 @@ p {
   width: 120px;
 }
 
-.insta {
-  margin-top: -37px;
+.discord {
+  width: 150px;
+}
+.telegram {
+  width: 120px;
 }
 
+.insta {
+  width: 100px;
+}
 .about {
   display: block;
   margin: 10px auto;
@@ -253,4 +259,27 @@ p {
 
 .snip1515:hover {
   transform: scale(1.05); /* Hover zoom-in effect */
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 82%;
+}
+
+@media (max-width: 668px) {
+  .bottom-container {
+    width: 52%;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+}
+.social-icons {
+  width: 190px;
+  display: flex;
+  background-color: black;
 }
