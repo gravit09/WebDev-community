@@ -97,6 +97,10 @@ li {
   margin: -30px 95px;
 }
 
+.hidden {
+  display: none;
+}
+
 h1 {
   text-align: center;
   margin-top: 100px;
@@ -136,6 +140,14 @@ img {
   margin-left: 25%;
 }
 
+.collab-img {
+  width: 50%;
+}
+
+.tog-img {
+  width: 60%;
+}
+
 @media (max-width: 998px) {
   img {
     display: block;
@@ -144,6 +156,14 @@ img {
     width: 50%;
   }
   .collab-img {
-    width: 70%;
+    width: 80%;
+  }
+
+  .tog-img {
+    width: 90%;
+  }
+  .right-img {
+    width: 80%;
+    margin-left: 29px;
   }
 }
