@@ -22,6 +22,17 @@ a {
     margin-right: 10px;
   }
 
+  .headings {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .item-p {
+    padding: 0;
+    width: 100%;
+  }
+
   .navbar-nav {
     align-items: center;
   }
@@ -51,10 +62,6 @@ li {
   .heading {
     padding: 80px;
   }
-
-  .tag-line {
-    margin: 20px;
-  }
 }
 
 @media (max-width: 600px) {
@@ -63,6 +70,24 @@ li {
   }
   .tag-line {
     padding-top: 40px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 998px) {
+  .motto {
+    margin: 0px;
+    margin-top: 5px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .item-p {
+    width: 100%;
+    text-align: center;
+    margin: auto;
   }
 }
 
@@ -84,9 +109,8 @@ span {
 }
 
 .motto {
-  margin: 70px;
+  margin-top: 70px;
 }
-
 img {
   width: 50%;
   margin: 5%;
@@ -107,12 +131,6 @@ img {
   font-size: 17px;
   font-weight: 300;
 }
-@media (max-width: 998px) {
-  .item-p {
-    padding: 0px;
-    text-align: center;
-  }
-}
 
 .right-img {
   margin-left: 25%;
@@ -127,8 +145,5 @@ img {
   }
   .collab-img {
     width: 70%;
-  }
-  .item-p {
-    padding: 2px;
   }
 }
