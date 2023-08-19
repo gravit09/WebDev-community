@@ -31,15 +31,6 @@ function Navbar() {
               </li>
               <li className="nav-item ">
                 <Link
-                  to="paths"
-                  className="nav-link active"
-                  aria-current="page"
-                >
-                  Paths
-                </Link>
-              </li>
-              <li className="nav-item ">
-                <Link
                   to="courses"
                   className="nav-link active"
                   aria-current="page"
@@ -48,9 +39,13 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item ">
-                <a className="nav-link active" aria-current="page">
+                <Link
+                  to="about"
+                  className="nav-link active"
+                  aria-current="page"
+                >
                   About us
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="d-flex join-btn" role="search">

@@ -11,6 +11,10 @@
   padding: 5%;
 }
 
+.text-cont {
+  width: 100%;
+}
+
 .card {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
@@ -84,7 +88,7 @@ p {
 }
 
 .discord {
-  width: 150px;
+  width: 130px;
 }
 .telegram {
   width: 120px;
@@ -144,8 +148,6 @@ p {
   text-align: center;
   font-family: "Open Sans";
 }
-
-/*  CHANGES  ON HOVER  */
 
 .profile-card:hover {
   height: 450px;
@@ -273,11 +275,16 @@ p {
   .bottom-container {
     width: 52%;
   }
+
+  .item-p {
+    text-align: center;
+  }
 }
 
 .footer {
   margin-top: 30px;
 }
+
 .social-icons {
   width: 190px;
   display: flex;

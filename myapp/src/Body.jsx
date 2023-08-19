@@ -14,7 +14,7 @@ function Body() {
           <div className="col-lg-6 order-lg-1 ">
             <img className="collab-img" src={collabrate} alt="collabrate-img" />
           </div>
-          <div className="col-lg-6 order-lg-2">
+          <div className="col-lg-6 order-lg-2 ">
             <p className="item-p">
               Amidst our dynamic digital community, web developers harmoniously
               unite, nurturing collaboration and knowledge exchange. Together,
@@ -34,7 +34,7 @@ function Body() {
           <div className="col-lg-6 order-lg-2">
             <img src={inovate} className="right-img" alt="innovate-img" />
           </div>
-          <div className="col-lg-6 order-lg-1 animate-from-left">
+          <div className="col-lg-6 order-lg-1 animate-from-right">
             <p className="item-p">
               Within our dynamic digital enclave, we ignite a perpetual cycle of
               innovation and refinement. Here, members ardently iterate on
@@ -53,7 +53,7 @@ function Body() {
           <div className="col-lg-6 order-lg-1 ">
             <img className="together-img" src={together} alt="collabrate-img" />
           </div>
-          <div className="col-lg-6 order-lg-2">
+          <div className="col-lg-6 order-lg-2 animate-from-right">
             <p className="item-p">
               At the heart of our mission lies the advocacy for collaborative
               problem-solving. Here, our members synergize their efforts to hack
