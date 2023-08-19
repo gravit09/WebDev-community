@@ -156,7 +156,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={camp} />
+              <img className="courses" src={camp} />
             </a>
             <h1>Free Code Camp</h1>
           </header>
@@ -171,7 +171,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={step} />
+              <img className="courses" src={step} />
             </a>
             <h1>Code step by step</h1>
           </header>
@@ -186,7 +186,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={thapa} />
+              <img className="courses" src={thapa} />
             </a>
             <h1>Thapa Technical</h1>
           </header>
@@ -201,7 +201,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={fire} />
+              <img className="courses" src={fire} />
             </a>
             <h1>fireship</h1>
           </header>
@@ -217,7 +217,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={kunal} />
+              <img className="courses" src={kunal} />
             </a>
             <h1>Kunal kushawa</h1>
           </header>
@@ -232,7 +232,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={hitesh} />
+              <img className="courses" src={hitesh} />
             </a>
             <h1>Hitesh choudhary</h1>
           </header>
@@ -247,7 +247,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={neet} />
+              <img className="courses" src={neet} />
             </a>
             <h1>Neet Code</h1>
           </header>
@@ -262,7 +262,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={trav} />
+              <img className="courses" src={trav} />
             </a>
             <h1>Travery Media</h1>
           </header>
@@ -277,7 +277,7 @@ function Courses() {
         <aside className="profile-card">
           <header>
             <a href="https://tutsplus.com">
-              <img src={eater} />
+              <img className="courses" src={eater} />
             </a>
             <h1>Code Eater</h1>
           </header>
